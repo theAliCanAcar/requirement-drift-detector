@@ -1,0 +1,28 @@
+{
+  "name": "requirement-drift-detector",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Detect replans that weaken mandatory requirements.",
+  "main": "requirement-drift-detector.js",
+  "exports": {
+    ".": "./requirement-drift-detector.js"
+  },
+  "files": [
+    "requirement-drift-detector.js",
+    "dod-contract.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "requirement-drift-detector"
+  ],
+  "license": "MIT"
+}
